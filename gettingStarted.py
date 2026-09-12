@@ -20,7 +20,7 @@ def welcome_assignment_answers(question):
         #Correct
         answer = "c49fe93e2f219d0f7fc3f1d6fff41df838425076e44a7996d48fa25cdbd6436d"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
-        answer = "No"
+        answer = "Yes"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
         #Correct
         answer = int(4)
