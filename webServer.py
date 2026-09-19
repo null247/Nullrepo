@@ -49,11 +49,11 @@ def webServer(port=13331):
       #Send everything as one send command, do not send one line/item at a time!
 
       # Fill in start
-        connectionSocket.send(outputdata)
+      connectionSocket.send(outputdata)
 
       # Fill in end
         
-        connectionSocket.close() #closing the connection socket
+      connectionSocket.close() #closing the connection socket
       
     except Exception as e:
       # Send response message for invalid request due to the file not being found (404)
